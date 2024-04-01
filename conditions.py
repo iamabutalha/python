@@ -1,7 +1,7 @@
 import sys
 
 try:
-     x = int(input("Enter Value of X: "))
+     z = int(input("Enter Value of X: "))
      y = int(input("Enter Value of Y: "))
 
 except ValueError:
@@ -10,12 +10,12 @@ except ValueError:
 
 
 #try:
-if x < y:
-    print("X is less than y ")
-elif x > y:
-    print("X is greater than y ")
+if z < y:
+    print("z is less than y ")
+elif z > y:
+    print("z is greater than y ")
 else:
-    print("X is equal to Y ")        
+    print("z is equal to Y ")        
 #except NameError:
   #  print("VAlue cannot be campare ") 
    # sys.exit(1)       
