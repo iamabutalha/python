@@ -13,7 +13,7 @@ try:
 
     print(s)
 
-    s.remove(5)
+    s.remove(4)
 
     print(s)
 
