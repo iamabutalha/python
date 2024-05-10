@@ -5,3 +5,4 @@ name = ["alice" , "bob", "charlie"]
 
 for c in name:
     print(c)
+    print(type(c))
