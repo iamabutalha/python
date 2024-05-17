@@ -1,11 +1,14 @@
+import time
 from word import words
 import sys
 
 for word in words:
-    if word == "achiever":
+    if word == "aback":
         print(f"Found word {word}")
-        sys.exit(0)
+        time.sleep(1)
+        
     else:
         print("Not found")
-        sys.exit(1)
+        time.sleep(1)
+        
 
