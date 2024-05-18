@@ -12,5 +12,4 @@ while active:
     n = input("Enter Q to terminate")
     if n == 'q':
         active = False
-    else:
-        pass
+   
