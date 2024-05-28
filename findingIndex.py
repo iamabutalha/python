@@ -1,7 +1,6 @@
 
 
 
-
 def FindOccurance(text, Choice):
     newlist = []
     for ind, ch in enumerate(text):
@@ -13,7 +12,7 @@ def FindOccurance(text, Choice):
 
 text1 = input("Enter Any Sentence ")
 
-Choice1 = 'a'
+Choice1 = 'A'
 
 
 print(FindOccurance(text1, Choice1))
