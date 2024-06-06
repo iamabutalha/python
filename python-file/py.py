@@ -7,11 +7,5 @@ with open("Demo.txt", "r") as f:
     data = f.read()
     print(data)
 
-    n = []
-    for ind, c  in enumerate(data):
-        if c == 's':
-            n.append(ind)
-
-    print(n)
-
-            
+    data = data.replace("Java", "Python")
+    
