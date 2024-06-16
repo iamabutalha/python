@@ -1,9 +1,6 @@
 
 
 
-from typing import final
-
-
 def checkMid(arr):
     if len(arr) % 2 == 1:
 
