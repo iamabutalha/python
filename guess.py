@@ -1,3 +1,5 @@
+# A game to guess a word by computer
+
 import random
 
 def guess(x):
